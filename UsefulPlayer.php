@@ -39,12 +39,14 @@ class UsefulPlayer extends PluginBase
 
 			}
 			
+			/*
 			public function onJoin (\pocketmine\event\player\PlayerJoinEvent $event) : void
 			{
 				
 				$event->getPlayer()->sendMessage ('your money: ' . $event->getPlayer()->getMoney());
 
 			}
+			*/
 
 		}, $this);
 
